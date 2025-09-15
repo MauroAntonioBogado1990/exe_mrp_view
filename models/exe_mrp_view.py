@@ -10,3 +10,10 @@ class MrpWorkorder(models.Model):
             'url': '/mrp/workcenter_control_panel',
             'target': 'self',
         }
+    
+    def action_exit_to_panel(self):
+        return {
+            'type': 'ir.actions.act_url',
+            'url': '/mrp/workcenter_control_panel',
+            'target': 'self',
+        }

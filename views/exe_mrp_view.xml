@@ -1,0 +1,14 @@
+<record id="view_mrp_workorder_form_custom" model="ir.ui.view">
+    <field name="name">mrp.workorder.form.custom</field>
+    <field name="model">mrp.workorder</field>
+    <field name="inherit_id" ref="mrp.mrp_workorder_view_form"/>
+    <field name="arch" type="xml">
+        <xpath expr="//header" position="inside">
+            <button name="action_exit_to_panel"
+                    type="object"
+                    string="Salir al Panel"
+                    class="btn-secondary"
+                    icon="fa-sign-out"/>
+        </xpath>
+    </field>
+</record>

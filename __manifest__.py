@@ -7,9 +7,8 @@
     'depends': ['base','sale', 'account', 'mrp'],
     'data': [
         #'security/ir.model.access.csv',
-        #'views/website_date.xml',
         
-        
+        'views/exe_mrp_view.xml',
     ],
 
     'installable': True,
